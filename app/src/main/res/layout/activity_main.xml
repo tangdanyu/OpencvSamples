@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <Button
+        android:id="@+id/btn_puzzle15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puzzle15"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_camera_calibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CameraCalibration"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_puzzle15" />
+
+    <Button
+        android:id="@+id/btn_color_blob_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ColorBlobDetection"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_camera_calibration" />
+    <Button
+        android:id="@+id/btn_face_detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FaceDetection"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_color_blob_detection" />
+
+    <Button
+        android:id="@+id/btn_image_manipulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImageManipulations"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_face_detection" />
+
+    <Button
+        android:id="@+id/btn_tutorial1_camerapreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial1Camerapreview"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_image_manipulations" />
+
+    <Button
+        android:id="@+id/btn_tutorial2_mixedprocessing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial2Mixedprocessing"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tutorial1_camerapreview" />
+
+    <Button
+        android:id="@+id/btn_tutorial3_cameracontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial3Cameracontrol"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_tutorial2_mixedprocessing" />
+</androidx.constraintlayout.widget.ConstraintLayout>
